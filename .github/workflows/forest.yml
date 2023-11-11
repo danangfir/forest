@@ -24,8 +24,8 @@ jobs:
           git config --local user.name "{danangfir}"
           git add -A
           git commit -m "Hijaus"
-      - name: Push Back
-        uses: ad-m/github-push-action@v0.5.0
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.8.0
         with:
           force: true
           directory: '.'
