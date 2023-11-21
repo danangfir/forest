@@ -51,4 +51,3 @@ jobs:
         with:
           directory: "."
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/assignees
